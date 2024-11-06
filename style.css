@@ -1,0 +1,70 @@
+header{
+    color: rgb(212, 147, 26);
+    border-bottom: solid 2px rgb(212, 147, 26);
+    padding: 10px 8px 6px;
+    font-size: 25px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+body{
+    background: black;
+    margin: 0px;
+    font-family: "Rock Salt", cursive;
+    margin-bottom: 100px;
+}
+
+.Principal{
+    background: #e58800;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+.Outros{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.Recomendados{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+
+.Outros img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.Outros img:hover {
+    opacity: 1.0;
+    border: 1px solid orange;
+}
+
+.Recomendados h2 {
+    color:  rgb(212, 147, 26);
+}
